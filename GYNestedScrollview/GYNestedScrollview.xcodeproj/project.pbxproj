@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5D6BF2422151B3400AAF210 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF2322151B3400AAF210 /* AppDelegate.m */; };
+		D5D6BF2722151B3400AAF210 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF2622151B3400AAF210 /* ViewController.m */; };
+		D5D6BF2A22151B3400AAF210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D6BF2822151B3400AAF210 /* Main.storyboard */; };
+		D5D6BF2C22151B3700AAF210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D6BF2B22151B3700AAF210 /* Assets.xcassets */; };
+		D5D6BF3222151B3700AAF210 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF3122151B3700AAF210 /* main.m */; };
+		D5D6BF3C22151B3700AAF210 /* GYNestedScrollviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF3B22151B3700AAF210 /* GYNestedScrollviewTests.m */; };
+		D5D6BF4722151B3700AAF210 /* GYNestedScrollviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF4622151B3700AAF210 /* GYNestedScrollviewUITests.m */; };
+		D5D6BF5522151B7900AAF210 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D6BF5422151B7900AAF210 /* Launch Screen.storyboard */; };
+		D5D6BF66221525C700AAF210 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF5A221525C700AAF210 /* SDCycleScrollView.m */; };
+		D5D6BF67221525C700AAF210 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF5B221525C700AAF210 /* UIView+SDExtension.m */; };
+		D5D6BF68221525C700AAF210 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF5C221525C700AAF210 /* SDCollectionViewCell.m */; };
+		D5D6BF69221525C700AAF210 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF5F221525C700AAF210 /* TADotView.m */; };
+		D5D6BF6A221525C700AAF210 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF60221525C700AAF210 /* TAPageControl.m */; };
+		D5D6BF6B221525C700AAF210 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF61221525C700AAF210 /* TAAnimatedDotView.m */; };
+		D5D6BF6C221525C700AAF210 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF62221525C700AAF210 /* TAAbstractDotView.m */; };
+		D5D6BF7422152A6200AAF210 /* GYCursorView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF6F22152A6200AAF210 /* GYCursorView.m */; };
+		D5D6BF7522152A6200AAF210 /* ConditionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF7022152A6200AAF210 /* ConditionFilter.m */; };
+		D5D6BF7622152A6200AAF210 /* GYSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF7122152A6200AAF210 /* GYSelectorCell.m */; };
+		D5D6BF7922152DE200AAF210 /* SegScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF7722152DE200AAF210 /* SegScrollView.m */; };
+		D5D6BF7C22152FE200AAF210 /* GYTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF7B22152FE200AAF210 /* GYTableView.m */; };
+		D5D6BF802215317D00AAF210 /* GoodsListController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF7F2215317D00AAF210 /* GoodsListController.m */; };
+		D5D6BF85221532C100AAF210 /* GameTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5D6BF83221532C100AAF210 /* GameTypeCell.xib */; };
+		D5D6BF86221532C100AAF210 /* GameTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF84221532C100AAF210 /* GameTypeCell.m */; };
+		D5D6BF8C2215458C00AAF210 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF8B2215458C00AAF210 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		D5D6BF8F221551A100AAF210 /* GoodsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF8E221551A100AAF210 /* GoodsCollectionViewController.m */; };
+		D5D6BF92221553D900AAF210 /* GYBaseCollectView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF90221553D800AAF210 /* GYBaseCollectView.m */; };
+		D5D6BF95221554D400AAF210 /* GameTilteMenuCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF94221554D400AAF210 /* GameTilteMenuCollectionReusableView.m */; };
+		D5D6BF992215563200AAF210 /* Goods.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF982215563200AAF210 /* Goods.m */; };
+		D5D6BF9C221559DD00AAF210 /* GY_NiineShopCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D6BF9A221559DC00AAF210 /* GY_NiineShopCollectionViewCell.m */; };
+		FA4F7A5A2D9E53CDC115F97D /* libPods-GYNestedScrollview.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6596415830B1B9D841F2498 /* libPods-GYNestedScrollview.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5D6BF3822151B3700AAF210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5D6BF1722151B3400AAF210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D6BF1E22151B3400AAF210;
+			remoteInfo = GYNestedScrollview;
+		};
+		D5D6BF4322151B3700AAF210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5D6BF1722151B3400AAF210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D6BF1E22151B3400AAF210;
+			remoteInfo = GYNestedScrollview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6596415830B1B9D841F2498 /* libPods-GYNestedScrollview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GYNestedScrollview.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D6BF1F22151B3400AAF210 /* GYNestedScrollview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYNestedScrollview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D6BF2222151B3400AAF210 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5D6BF2322151B3400AAF210 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5D6BF2522151B3400AAF210 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5D6BF2622151B3400AAF210 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5D6BF2922151B3400AAF210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5D6BF2B22151B3700AAF210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5D6BF3022151B3700AAF210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D6BF3122151B3700AAF210 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5D6BF3722151B3700AAF210 /* GYNestedScrollviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYNestedScrollviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D6BF3B22151B3700AAF210 /* GYNestedScrollviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYNestedScrollviewTests.m; sourceTree = "<group>"; };
+		D5D6BF3D22151B3700AAF210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D6BF4222151B3700AAF210 /* GYNestedScrollviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYNestedScrollviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D6BF4622151B3700AAF210 /* GYNestedScrollviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYNestedScrollviewUITests.m; sourceTree = "<group>"; };
+		D5D6BF4822151B3700AAF210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D6BF5422151B7900AAF210 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D5D6BF57221525C700AAF210 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		D5D6BF58221525C700AAF210 /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		D5D6BF59221525C700AAF210 /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		D5D6BF5A221525C700AAF210 /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		D5D6BF5B221525C700AAF210 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		D5D6BF5C221525C700AAF210 /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		D5D6BF5E221525C700AAF210 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		D5D6BF5F221525C700AAF210 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		D5D6BF60221525C700AAF210 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		D5D6BF61221525C700AAF210 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		D5D6BF62221525C700AAF210 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		D5D6BF63221525C700AAF210 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		D5D6BF64221525C700AAF210 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		D5D6BF65221525C700AAF210 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		D5D6BF6E22152A6200AAF210 /* GYSelectorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYSelectorCell.h; sourceTree = "<group>"; };
+		D5D6BF6F22152A6200AAF210 /* GYCursorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYCursorView.m; sourceTree = "<group>"; };
+		D5D6BF7022152A6200AAF210 /* ConditionFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConditionFilter.m; sourceTree = "<group>"; };
+		D5D6BF7122152A6200AAF210 /* GYSelectorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYSelectorCell.m; sourceTree = "<group>"; };
+		D5D6BF7222152A6200AAF210 /* GYCursorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYCursorView.h; sourceTree = "<group>"; };
+		D5D6BF7322152A6200AAF210 /* ConditionFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConditionFilter.h; sourceTree = "<group>"; };
+		D5D6BF7722152DE200AAF210 /* SegScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegScrollView.m; sourceTree = "<group>"; };
+		D5D6BF7822152DE200AAF210 /* SegScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegScrollView.h; sourceTree = "<group>"; };
+		D5D6BF7A22152FE200AAF210 /* GYTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYTableView.h; sourceTree = "<group>"; };
+		D5D6BF7B22152FE200AAF210 /* GYTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYTableView.m; sourceTree = "<group>"; };
+		D5D6BF7E2215317D00AAF210 /* GoodsListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsListController.h; sourceTree = "<group>"; };
+		D5D6BF7F2215317D00AAF210 /* GoodsListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsListController.m; sourceTree = "<group>"; };
+		D5D6BF82221532C100AAF210 /* GameTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameTypeCell.h; sourceTree = "<group>"; };
+		D5D6BF83221532C100AAF210 /* GameTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameTypeCell.xib; sourceTree = "<group>"; };
+		D5D6BF84221532C100AAF210 /* GameTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTypeCell.m; sourceTree = "<group>"; };
+		D5D6BF8A2215458C00AAF210 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		D5D6BF8B2215458C00AAF210 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		D5D6BF8D221551A100AAF210 /* GoodsCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsCollectionViewController.h; sourceTree = "<group>"; };
+		D5D6BF8E221551A100AAF210 /* GoodsCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsCollectionViewController.m; sourceTree = "<group>"; };
+		D5D6BF90221553D800AAF210 /* GYBaseCollectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYBaseCollectView.m; sourceTree = "<group>"; };
+		D5D6BF91221553D900AAF210 /* GYBaseCollectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYBaseCollectView.h; sourceTree = "<group>"; };
+		D5D6BF93221554D400AAF210 /* GameTilteMenuCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameTilteMenuCollectionReusableView.h; sourceTree = "<group>"; };
+		D5D6BF94221554D400AAF210 /* GameTilteMenuCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTilteMenuCollectionReusableView.m; sourceTree = "<group>"; };
+		D5D6BF972215563200AAF210 /* Goods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Goods.h; sourceTree = "<group>"; };
+		D5D6BF982215563200AAF210 /* Goods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Goods.m; sourceTree = "<group>"; };
+		D5D6BF9A221559DC00AAF210 /* GY_NiineShopCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GY_NiineShopCollectionViewCell.m; sourceTree = "<group>"; };
+		D5D6BF9B221559DC00AAF210 /* GY_NiineShopCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GY_NiineShopCollectionViewCell.h; sourceTree = "<group>"; };
+		DEA3D2ED1094F1AC09496E70 /* Pods-GYNestedScrollview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYNestedScrollview.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GYNestedScrollview/Pods-GYNestedScrollview.debug.xcconfig"; sourceTree = "<group>"; };
+		FA683C8AB09B52E647BB8F8D /* Pods-GYNestedScrollview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYNestedScrollview.release.xcconfig"; path = "Pods/Target Support Files/Pods-GYNestedScrollview/Pods-GYNestedScrollview.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5D6BF1C22151B3400AAF210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4F7A5A2D9E53CDC115F97D /* libPods-GYNestedScrollview.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D6BF3422151B3700AAF210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D6BF3F22151B3700AAF210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C1F7F4F98AA85659E0BABBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6596415830B1B9D841F2498 /* libPods-GYNestedScrollview.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E2628EE658F43B71D8045D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEA3D2ED1094F1AC09496E70 /* Pods-GYNestedScrollview.debug.xcconfig */,
+				FA683C8AB09B52E647BB8F8D /* Pods-GYNestedScrollview.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5D6BF1622151B3400AAF210 = {
+			isa = PBXGroup;
+			children = (
+				D5D6BF2122151B3400AAF210 /* GYNestedScrollview */,
+				D5D6BF3A22151B3700AAF210 /* GYNestedScrollviewTests */,
+				D5D6BF4522151B3700AAF210 /* GYNestedScrollviewUITests */,
+				D5D6BF2022151B3400AAF210 /* Products */,
+				9E2628EE658F43B71D8045D0 /* Pods */,
+				7C1F7F4F98AA85659E0BABBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5D6BF2022151B3400AAF210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5D6BF1F22151B3400AAF210 /* GYNestedScrollview.app */,
+				D5D6BF3722151B3700AAF210 /* GYNestedScrollviewTests.xctest */,
+				D5D6BF4222151B3700AAF210 /* GYNestedScrollviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5D6BF2122151B3400AAF210 /* GYNestedScrollview */ = {
+			isa = PBXGroup;
+			children = (
+				D5D6BF892215457900AAF210 /* Util */,
+				D5D6BF7D2215315C00AAF210 /* Demo */,
+				D5D6BF6D22152A6200AAF210 /* GYCursorView */,
+				D5D6BF56221525C700AAF210 /* SDCycleScrollView */,
+				D5D6BF2222151B3400AAF210 /* AppDelegate.h */,
+				D5D6BF2322151B3400AAF210 /* AppDelegate.m */,
+				D5D6BF2522151B3400AAF210 /* ViewController.h */,
+				D5D6BF2622151B3400AAF210 /* ViewController.m */,
+				D5D6BF5422151B7900AAF210 /* Launch Screen.storyboard */,
+				D5D6BF2822151B3400AAF210 /* Main.storyboard */,
+				D5D6BF2B22151B3700AAF210 /* Assets.xcassets */,
+				D5D6BF3022151B3700AAF210 /* Info.plist */,
+				D5D6BF3122151B3700AAF210 /* main.m */,
+			);
+			path = GYNestedScrollview;
+			sourceTree = "<group>";
+		};
+		D5D6BF3A22151B3700AAF210 /* GYNestedScrollviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5D6BF3B22151B3700AAF210 /* GYNestedScrollviewTests.m */,
+				D5D6BF3D22151B3700AAF210 /* Info.plist */,
+			);
+			path = GYNestedScrollviewTests;
+			sourceTree = "<group>";
+		};
+		D5D6BF4522151B3700AAF210 /* GYNestedScrollviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5D6BF4622151B3700AAF210 /* GYNestedScrollviewUITests.m */,
+				D5D6BF4822151B3700AAF210 /* Info.plist */,
+			);
+			path = GYNestedScrollviewUITests;
+			sourceTree = "<group>";
+		};
+		D5D6BF56221525C700AAF210 /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D5D6BF57221525C700AAF210 /* UIView+SDExtension.h */,
+				D5D6BF58221525C700AAF210 /* SDCycleScrollView.h */,
+				D5D6BF59221525C700AAF210 /* SDCollectionViewCell.h */,
+				D5D6BF5A221525C700AAF210 /* SDCycleScrollView.m */,
+				D5D6BF5B221525C700AAF210 /* UIView+SDExtension.m */,
+				D5D6BF5C221525C700AAF210 /* SDCollectionViewCell.m */,
+				D5D6BF5D221525C700AAF210 /* PageControl */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		D5D6BF5D221525C700AAF210 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				D5D6BF5E221525C700AAF210 /* TAAbstractDotView.h */,
+				D5D6BF5F221525C700AAF210 /* TADotView.m */,
+				D5D6BF60221525C700AAF210 /* TAPageControl.m */,
+				D5D6BF61221525C700AAF210 /* TAAnimatedDotView.m */,
+				D5D6BF62221525C700AAF210 /* TAAbstractDotView.m */,
+				D5D6BF63221525C700AAF210 /* TADotView.h */,
+				D5D6BF64221525C700AAF210 /* TAAnimatedDotView.h */,
+				D5D6BF65221525C700AAF210 /* TAPageControl.h */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		D5D6BF6D22152A6200AAF210 /* GYCursorView */ = {
+			isa = PBXGroup;
+			children = (
+				D5D6BF6E22152A6200AAF210 /* GYSelectorCell.h */,
+				D5D6BF6F22152A6200AAF210 /* GYCursorView.m */,
+				D5D6BF7022152A6200AAF210 /* ConditionFilter.m */,
+				D5D6BF7122152A6200AAF210 /* GYSelectorCell.m */,
+				D5D6BF7222152A6200AAF210 /* GYCursorView.h */,
+				D5D6BF7322152A6200AAF210 /* ConditionFilter.h */,
+			);
+			path = GYCursorView;
+			sourceTree = "<group>";
+		};
+		D5D6BF7D2215315C00AAF210 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D5D6BF96221555B100AAF210 /* model */,
+				D5D6BF882215333F00AAF210 /* vc */,
+				D5D6BF872215332400AAF210 /* view */,
+				D5D6BF81221532B700AAF210 /* cell */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		D5D6BF81221532B700AAF210 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				D5D6BF82221532C100AAF210 /* GameTypeCell.h */,
+				D5D6BF84221532C100AAF210 /* GameTypeCell.m */,
+				D5D6BF83221532C100AAF210 /* GameTypeCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		D5D6BF872215332400AAF210 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D5D6BF7822152DE200AAF210 /* SegScrollView.h */,
+				D5D6BF7722152DE200AAF210 /* SegScrollView.m */,
+				D5D6BF93221554D400AAF210 /* GameTilteMenuCollectionReusableView.h */,
+				D5D6BF94221554D400AAF210 /* GameTilteMenuCollectionReusableView.m */,
+				D5D6BF9B221559DC00AAF210 /* GY_NiineShopCollectionViewCell.h */,
+				D5D6BF9A221559DC00AAF210 /* GY_NiineShopCollectionViewCell.m */,
+				D5D6BF7A22152FE200AAF210 /* GYTableView.h */,
+				D5D6BF7B22152FE200AAF210 /* GYTableView.m */,
+				D5D6BF91221553D900AAF210 /* GYBaseCollectView.h */,
+				D5D6BF90221553D800AAF210 /* GYBaseCollectView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D5D6BF882215333F00AAF210 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				D5D6BF7E2215317D00AAF210 /* GoodsListController.h */,
+				D5D6BF7F2215317D00AAF210 /* GoodsListController.m */,
+				D5D6BF8D221551A100AAF210 /* GoodsCollectionViewController.h */,
+				D5D6BF8E221551A100AAF210 /* GoodsCollectionViewController.m */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		D5D6BF892215457900AAF210 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D5D6BF8A2215458C00AAF210 /* UINavigationController+FDFullscreenPopGesture.h */,
+				D5D6BF8B2215458C00AAF210 /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		D5D6BF96221555B100AAF210 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D5D6BF972215563200AAF210 /* Goods.h */,
+				D5D6BF982215563200AAF210 /* Goods.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5D6BF1E22151B3400AAF210 /* GYNestedScrollview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D6BF4B22151B3700AAF210 /* Build configuration list for PBXNativeTarget "GYNestedScrollview" */;
+			buildPhases = (
+				88829F2817C924CA0E48A7F7 /* [CP] Check Pods Manifest.lock */,
+				D5D6BF1B22151B3400AAF210 /* Sources */,
+				D5D6BF1C22151B3400AAF210 /* Frameworks */,
+				D5D6BF1D22151B3400AAF210 /* Resources */,
+				EEB056C5402A33B1E09D0005 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GYNestedScrollview;
+			productName = GYNestedScrollview;
+			productReference = D5D6BF1F22151B3400AAF210 /* GYNestedScrollview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5D6BF3622151B3700AAF210 /* GYNestedScrollviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D6BF4E22151B3700AAF210 /* Build configuration list for PBXNativeTarget "GYNestedScrollviewTests" */;
+			buildPhases = (
+				D5D6BF3322151B3700AAF210 /* Sources */,
+				D5D6BF3422151B3700AAF210 /* Frameworks */,
+				D5D6BF3522151B3700AAF210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5D6BF3922151B3700AAF210 /* PBXTargetDependency */,
+			);
+			name = GYNestedScrollviewTests;
+			productName = GYNestedScrollviewTests;
+			productReference = D5D6BF3722151B3700AAF210 /* GYNestedScrollviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5D6BF4122151B3700AAF210 /* GYNestedScrollviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D6BF5122151B3700AAF210 /* Build configuration list for PBXNativeTarget "GYNestedScrollviewUITests" */;
+			buildPhases = (
+				D5D6BF3E22151B3700AAF210 /* Sources */,
+				D5D6BF3F22151B3700AAF210 /* Frameworks */,
+				D5D6BF4022151B3700AAF210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5D6BF4422151B3700AAF210 /* PBXTargetDependency */,
+			);
+			name = GYNestedScrollviewUITests;
+			productName = GYNestedScrollviewUITests;
+			productReference = D5D6BF4222151B3700AAF210 /* GYNestedScrollviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5D6BF1722151B3400AAF210 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = qiugaoying;
+				TargetAttributes = {
+					D5D6BF1E22151B3400AAF210 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D5D6BF3622151B3700AAF210 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D5D6BF1E22151B3400AAF210;
+					};
+					D5D6BF4122151B3700AAF210 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D5D6BF1E22151B3400AAF210;
+					};
+				};
+			};
+			buildConfigurationList = D5D6BF1A22151B3400AAF210 /* Build configuration list for PBXProject "GYNestedScrollview" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5D6BF1622151B3400AAF210;
+			productRefGroup = D5D6BF2022151B3400AAF210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5D6BF1E22151B3400AAF210 /* GYNestedScrollview */,
+				D5D6BF3622151B3700AAF210 /* GYNestedScrollviewTests */,
+				D5D6BF4122151B3700AAF210 /* GYNestedScrollviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5D6BF1D22151B3400AAF210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D6BF5522151B7900AAF210 /* Launch Screen.storyboard in Resources */,
+				D5D6BF85221532C100AAF210 /* GameTypeCell.xib in Resources */,
+				D5D6BF2C22151B3700AAF210 /* Assets.xcassets in Resources */,
+				D5D6BF2A22151B3400AAF210 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D6BF3522151B3700AAF210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D6BF4022151B3700AAF210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88829F2817C924CA0E48A7F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GYNestedScrollview-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEB056C5402A33B1E09D0005 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GYNestedScrollview/Pods-GYNestedScrollview-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GYNestedScrollview/Pods-GYNestedScrollview-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5D6BF1B22151B3400AAF210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D6BF2722151B3400AAF210 /* ViewController.m in Sources */,
+				D5D6BF7522152A6200AAF210 /* ConditionFilter.m in Sources */,
+				D5D6BF95221554D400AAF210 /* GameTilteMenuCollectionReusableView.m in Sources */,
+				D5D6BF92221553D900AAF210 /* GYBaseCollectView.m in Sources */,
+				D5D6BF7C22152FE200AAF210 /* GYTableView.m in Sources */,
+				D5D6BF6C221525C700AAF210 /* TAAbstractDotView.m in Sources */,
+				D5D6BF69221525C700AAF210 /* TADotView.m in Sources */,
+				D5D6BF9C221559DD00AAF210 /* GY_NiineShopCollectionViewCell.m in Sources */,
+				D5D6BF3222151B3700AAF210 /* main.m in Sources */,
+				D5D6BF2422151B3400AAF210 /* AppDelegate.m in Sources */,
+				D5D6BF67221525C700AAF210 /* UIView+SDExtension.m in Sources */,
+				D5D6BF7422152A6200AAF210 /* GYCursorView.m in Sources */,
+				D5D6BF6A221525C700AAF210 /* TAPageControl.m in Sources */,
+				D5D6BF66221525C700AAF210 /* SDCycleScrollView.m in Sources */,
+				D5D6BF7622152A6200AAF210 /* GYSelectorCell.m in Sources */,
+				D5D6BF8C2215458C00AAF210 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				D5D6BF802215317D00AAF210 /* GoodsListController.m in Sources */,
+				D5D6BF992215563200AAF210 /* Goods.m in Sources */,
+				D5D6BF86221532C100AAF210 /* GameTypeCell.m in Sources */,
+				D5D6BF68221525C700AAF210 /* SDCollectionViewCell.m in Sources */,
+				D5D6BF6B221525C700AAF210 /* TAAnimatedDotView.m in Sources */,
+				D5D6BF7922152DE200AAF210 /* SegScrollView.m in Sources */,
+				D5D6BF8F221551A100AAF210 /* GoodsCollectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D6BF3322151B3700AAF210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D6BF3C22151B3700AAF210 /* GYNestedScrollviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D6BF3E22151B3700AAF210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D6BF4722151B3700AAF210 /* GYNestedScrollviewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5D6BF3922151B3700AAF210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D6BF1E22151B3400AAF210 /* GYNestedScrollview */;
+			targetProxy = D5D6BF3822151B3700AAF210 /* PBXContainerItemProxy */;
+		};
+		D5D6BF4422151B3700AAF210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D6BF1E22151B3400AAF210 /* GYNestedScrollview */;
+			targetProxy = D5D6BF4322151B3700AAF210 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5D6BF2822151B3400AAF210 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5D6BF2922151B3400AAF210 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5D6BF4922151B3700AAF210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5D6BF4A22151B3700AAF210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5D6BF4C22151B3700AAF210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA3D2ED1094F1AC09496E70 /* Pods-GYNestedScrollview.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UYMT4K23Q8;
+				INFOPLIST_FILE = GYNestedScrollview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiu.GYNestedScrollview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5D6BF4D22151B3700AAF210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA683C8AB09B52E647BB8F8D /* Pods-GYNestedScrollview.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UYMT4K23Q8;
+				INFOPLIST_FILE = GYNestedScrollview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiu.GYNestedScrollview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5D6BF4F22151B3700AAF210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GC258G6YJ5;
+				INFOPLIST_FILE = GYNestedScrollviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiu.GYNestedScrollviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GYNestedScrollview.app/GYNestedScrollview";
+			};
+			name = Debug;
+		};
+		D5D6BF5022151B3700AAF210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GC258G6YJ5;
+				INFOPLIST_FILE = GYNestedScrollviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiu.GYNestedScrollviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GYNestedScrollview.app/GYNestedScrollview";
+			};
+			name = Release;
+		};
+		D5D6BF5222151B3700AAF210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GC258G6YJ5;
+				INFOPLIST_FILE = GYNestedScrollviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiu.GYNestedScrollviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GYNestedScrollview;
+			};
+			name = Debug;
+		};
+		D5D6BF5322151B3700AAF210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GC258G6YJ5;
+				INFOPLIST_FILE = GYNestedScrollviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiu.GYNestedScrollviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GYNestedScrollview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5D6BF1A22151B3400AAF210 /* Build configuration list for PBXProject "GYNestedScrollview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D6BF4922151B3700AAF210 /* Debug */,
+				D5D6BF4A22151B3700AAF210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D6BF4B22151B3700AAF210 /* Build configuration list for PBXNativeTarget "GYNestedScrollview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D6BF4C22151B3700AAF210 /* Debug */,
+				D5D6BF4D22151B3700AAF210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D6BF4E22151B3700AAF210 /* Build configuration list for PBXNativeTarget "GYNestedScrollviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D6BF4F22151B3700AAF210 /* Debug */,
+				D5D6BF5022151B3700AAF210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D6BF5122151B3700AAF210 /* Build configuration list for PBXNativeTarget "GYNestedScrollviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D6BF5222151B3700AAF210 /* Debug */,
+				D5D6BF5322151B3700AAF210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5D6BF1722151B3400AAF210 /* Project object */;
+}

@@ -1,0 +1,8 @@
+platform:ios,'8.0'
+ 
+target ‘GYNestedScrollview’ do
+
+pod 'SDWebImage'
+pod 'Masonry' #自动布局
+pod 'MJRefresh'
+end
